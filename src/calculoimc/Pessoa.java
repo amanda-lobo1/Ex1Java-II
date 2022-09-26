@@ -42,6 +42,16 @@ public class Pessoa {
         else return false;
     }
 
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", id='" + id + '\'' +
+                ", idade=" + idade +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                '}';
+    }
 
     public String getNome() {
         return nome;
